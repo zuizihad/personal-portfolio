@@ -71,7 +71,7 @@ ul {
       color: indigo;
   }
   .custom-button {
-      background-color: indigo;
+    background-image: linear-gradient( 45deg,  indigo  , teal );
       color: white;
       padding: 10px 20px;
       border-radius: 10px;
@@ -270,7 +270,9 @@ footer .connect{
     padding: 5px 0;
     float: left;
     margin-left: 25%;
-    
+    border-left: 7px solid;
+    border-image: linear-gradient( 180deg, indigo, teal);
+    border-image-slice: 1;
 }
 
 
